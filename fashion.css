@@ -1,0 +1,135 @@
+body{
+    font-family:Ariel,Calibre,sans-serif;
+    margin:0;/*zera a margem por que ela é vem por padrao*/
+    padding:0;/*zera padding por que ela é vem por padrao*/
+}
+.principal{
+    width:1024px;/*1024px e o tamanho da imgem */
+    margin:auto;
+    margin-top:20px;
+}
+.top{
+    height:50px;/*altura*/
+    background:#162028;
+    position:relative;
+}
+.logotipo{
+    margin:15px 0 0 135px;
+}
+.heder-nav{
+    position:absolute;
+    top:0;
+    right:0;
+    height:100%;
+    padding:13px;
+    
+    
+}
+.heder-nav ul{
+    margin:0;
+    padding:0;
+}
+.heder-nav li{
+    
+    list-style:none;/*tiras as balinhas da lista-bolet-*/
+    display:inline-block;
+    margin-right:10;
+}
+.heder-nav a{
+    color:#425564;/*cor da letra*/
+    text-decoration:none;/*tirar o sublinhado*/
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:5px;
+    transition:color 0.3s linear;/*efeito de transisao, recebe 3 valores,pripriedade desejada,tempo de efeito e desaseleração  ou nem uma */
+    
+}
+.heder-nav a:hover{
+    color:wheat;
+    
+    
+}
+.portfolio{
+    padding:50px100px;
+    text-align:center;
+}
+.portfolio h1{
+    font-size:36px;
+    color:#252525;
+    
+}
+.portfolio p{
+    font-size:16px;
+    line-height:2;
+    
+}
+.gallery{
+    color:#555;
+    padding:0 100px 50px 100px;
+    overflow:auto/*para o contener reconhecer o tamanho das fotos */
+}
+.gallery-card{
+    width:32%;
+    float:left;
+    text-align:center;
+}
+.gallery-titler{
+    text-transform:uppercase;
+    letter-spacing:4px;/*espaço entre as letra*/
+    font-size:16px;
+    font-weight:bold;/*deixar as letras grossas*/
+}
+.about{
+    background-color:#003d52;
+    padding:100px;
+    color:white;
+    background-image:url(imagens/bg_detalhe.png);
+    background-repeat:no-repeat;/*para a imagem nao se repetir*/
+    background-position:right bottom;/*posição da foto*/
+    
+}
+.about p{
+    line-height:1.5;
+    width:70%;
+    
+}
+.about h2{
+    text-transform:uppercase;
+    font-size:50px;
+    font-weight:normal;
+}
+#content{
+    margin:50px 0;
+    
+}
+#content address{
+    color:#143f52;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-style:normal;/*tirar o italico padrao*/
+    text-align:center;
+    font-size:26px;
+    
+    
+}
+.maps{
+    width:100%;
+    height:450px;
+    margin-top:15px;
+    
+    
+}
+.maps iframe{
+    width:100%;
+    
+    
+}
+.rodape{
+    background:#0b171f;
+    padding:25px;
+    font-size:12px;
+    color:white;
+    letter-spacing:5px;
+    text-align:center;
+    margin-top:20px;
+}
